@@ -3,8 +3,10 @@
 #include "FastNoise/FastNoise.h"
 #include "CoreMinimal.h"
 #include "UnrealFastNoisePlugin.h"
+#include "Kismet/BlueprintFunctionLibrary.h"
 #include "UFNBlueprintFunctionLibrary.generated.h"
 
+class UCurveFloat;
 UCLASS()
 class UNREALFASTNOISEPLUGIN_API UUFNBlueprintFunctionLibrary : public UBlueprintFunctionLibrary
 {

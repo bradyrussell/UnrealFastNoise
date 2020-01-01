@@ -26,7 +26,7 @@
 // off every 'zix'.)
 //
 
-#include "FastNoise.h"
+#include "../../Public/FastNoise/FastNoise.h"	// not sure why i have to do this BradyRussell 1/1/2020 4.24 compat fix
 #include "UnrealFastNoisePlugin.h"
 
 #include <math.h>

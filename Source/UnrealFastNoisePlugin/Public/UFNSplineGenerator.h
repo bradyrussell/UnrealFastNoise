@@ -2,6 +2,7 @@
 
 #include "UFNNoiseGenerator.h"
 #include "CoreMinimal.h"
+#include "Components/SplineComponent.h"
 #include "UFNSplineGenerator.generated.h"
 
 UCLASS(BlueprintType)
